@@ -1,0 +1,60 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    background-color: var(--Light-gray);
+    position: relative;
+    font-family: 'Courier Prime', monospace;
+
+}
+
+.parent {
+    width: 300px;
+    height: 500px;
+
+    background-color: white;
+
+    border-radius: 15px;
+
+
+    text-align: center;
+    margin: 3em auto 3em;
+
+
+
+    box-shadow: 10px 10px 10px hsl(214, 41%, 85%);
+}
+}
+
+.down {
+    text-align: center;
+    margin: 0 20px;
+    padding-bottom: 40px;
+}
+
+.qrcode {
+
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: hsl(212, 11%, 66%);
+    font-weight: 400;
+    font-size: 15px;
+}
